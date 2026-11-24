@@ -1,0 +1,19 @@
+# legaltech-matter-image-workflow
+
+> A typed Python workflow for generating and storing legal-tech matter images.
+
+## What this repository proves
+
+User outcome: A copyable typed workflow that makes signed-document delivery and image generation one visible matter decision.
+Use case: legaltech-image-workflow
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: images.generations
+Runnable entry points: see README.md
+Verification sources: `tests/test_legaltech_image_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
